@@ -1,18 +1,3 @@
-// const express = require("express");
-
-// const authRouter = express.Router();
-
-// authRouter.post("/api/signup", (req, res) => {
-//   const { name, email, password } = req.body;
-
-//   // Store the data in the database
-//   // Return the data to the user
-
-//   res.json({ message: "Signup successful!", user: { name, email } });
-// });
-
-// module.exports = authRouter;
-
 const express = require("express");
 const User = require("../models/user");
 const bcryptjs = require("bcryptjs");
